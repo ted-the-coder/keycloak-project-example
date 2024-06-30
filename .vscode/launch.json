@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "starter",
+            "command": "java start.java"
+        },
+        {
+            "type": "java",
+            "name": "Bff3App",
+            "request": "launch",
+            "mainClass": "com.github.thomasdarimont.apps.bff3.Bff3App",
+            "projectName": "bff-springboot3"
+        },
+        {
+            "type": "java",
+            "name": "BffApp",
+            "request": "launch",
+            "mainClass": "com.github.thomasdarimont.apps.bff.BffApp",
+            "projectName": "bff-springboot"
+        },
+        {
+            "type": "java",
+            "name": "WebAppSpringBoot3",
+            "request": "launch",
+            "mainClass": "com.github.thomasdarimont.keycloak.webapp.WebAppSpringBoot3",
+            "projectName": "frontend-webapp-springboot3"
+        },
+        {
+            "type": "java",
+            "name": "JwtClientAuthApp",
+            "request": "launch",
+            "mainClass": "demo.jwtclientauth.JwtClientAuthApp",
+            "projectName": "jwt-client-authentication"
+        },
+        {
+            "type": "java",
+            "name": "OfflineSessionClient",
+            "request": "launch",
+            "mainClass": "demo.OfflineSessionClient",
+            "projectName": "offline-session-client"
+        }
+    ]
+}
